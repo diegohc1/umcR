@@ -25,6 +25,6 @@ pega_lista <- function(data, nc){
   if(!is.list(data))
     stop("Data debe ser una lista")
 
-  purrr::imap(data, dplyr::mutate(.x, !!nc := .y)) %>%
+  imap(data, ~mutate(.x, !!nc := .y)) %>%
     bind_rows() #para bind listas
 }
