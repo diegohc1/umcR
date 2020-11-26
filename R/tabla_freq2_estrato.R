@@ -1,6 +1,7 @@
-#' Tabla de frecuencias para varias columnas, según estrato
+#' @name tabla_freq2_estrato
+#' @title Tabla de frecuencias para varias columnas, según estrato
 #'
-#' Tabla de frecuencias para varias columnas que empiezan con el mismo nombre y tienen el mismo contenido, agrupando por característica o estrato.
+#' @description Tabla de frecuencias para varias columnas que empiezan con el mismo nombre y tienen el mismo contenido, agrupando por característica o estrato.
 #'
 #' @param data Base de datos
 #' @param x Caracter con el que empieza el grupo de columnas

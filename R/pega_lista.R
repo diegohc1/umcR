@@ -1,6 +1,8 @@
-#' Une dataframes que estan en una lista
+#' @name pega_lista
 #'
-#' En una lista de dataframes con la misma estructura, agrega una columna con el nombre de la columna y las une. Útil cuando cuando se hizo un 'split' por algún estrato.
+#' @title Une dataframes que estan en una lista
+#'
+#' @description En una lista de dataframes con la misma estructura, agrega una columna con el nombre de la columna y las une. Útil cuando cuando se hizo un 'split' por algún estrato.
 #'
 #'
 #' @param data Lista con dataframes
@@ -10,6 +12,7 @@
 #' @export
 #' @importFrom magrittr "%>%"
 #' @import dplyr purrr
+NULL
 #' @encoding UTF-8
 #'
 #' @examples
@@ -22,6 +25,6 @@ pega_lista <- function(data, nc){
   if(!is.list(data))
     stop("Data debe ser una lista")
 
-  imap(data, mutate(.x, !!nc := .y)) %>%
+  purrr::imap(data, dplyr::mutate(.x, !!nc := .y)) %>%
     bind_rows() #para bind listas
 }

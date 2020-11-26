@@ -1,6 +1,8 @@
-#' Tabla de frecuencias
+#' @name tabla_freq1
 #'
-#' Igual que table(), pero devuelve un dataframe y con los porcentajes redondeados.
+#' @title Tabla de frecuencias
+#'
+#' @description Igual que table(), pero devuelve un dataframe y con los porcentajes redondeados.
 #'
 #' @param x Vector para aplicar tabla de frecuencias
 #'

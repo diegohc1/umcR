@@ -1,6 +1,7 @@
-#' Tabla de frecuencias para varias columnas
+#' @name tabla_freq2
+#' @title Tabla de frecuencias para varias columnas
 #'
-#' Tabla de frecuencias para varias columnas que empiezan con el mismo nombre y tienen el mismo contenido. Útil para un grupo de ítems de una escala, por ejemplo.
+#' @description Tabla de frecuencias para varias columnas que empiezan con el mismo nombre y tienen el mismo contenido. Útil para un grupo de ítems de una escala, por ejemplo.
 #'
 #' @param data Base de datos
 #' @param x Caracter con el que empieza el grupo de columnas
