@@ -2,7 +2,7 @@
 % Please edit documentation in R/tabla_freq1.R
 \name{tabla_freq1}
 \alias{tabla_freq1}
-\title{Igual que table(), pero en dataframe y porcentajes redondeados. Regresa un dataframe.}
+\title{Tabla de frecuencias}
 \usage{
 tabla_freq1(x)
 }
@@ -13,7 +13,7 @@ tabla_freq1(x)
 df
 }
 \description{
-Igual que table(), pero en dataframe y porcentajes redondeados. Regresa un dataframe.
+Igual que table(), pero devuelve un dataframe y con los porcentajes redondeados.
 }
 \examples{
 tabla_freq1(iris$Species)

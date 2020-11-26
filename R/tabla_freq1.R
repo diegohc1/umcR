@@ -1,4 +1,6 @@
-#' Igual que table(), pero en dataframe y porcentajes redondeados. Regresa un dataframe.
+#' Tabla de frecuencias
+#'
+#' Igual que table(), pero devuelve un dataframe y con los porcentajes redondeados.
 #'
 #' @param x Vector para aplicar tabla de frecuencias
 #'
