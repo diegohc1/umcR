@@ -10,7 +10,6 @@
 #' @export
 #' @importFrom magrittr "%>%"
 #' @import dplyr purrr
-NULL
 #' @encoding UTF-8
 #'
 #' @examples
